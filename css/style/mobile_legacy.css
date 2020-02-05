@@ -1,0 +1,26 @@
+body {
+  background-color: pink;
+  font-size: 0.875em;
+}
+
+
+.appHeader, .appMain, .appFooter {
+  width: 100%;
+}
+
+.appNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  margin-left: -70%;
+  height: 100%;
+}
+
+.appMain {
+  min-height: 700px;
+}
+
+.book, .news, .board, .favorite, .twitter {
+  width: 100%;
+}
