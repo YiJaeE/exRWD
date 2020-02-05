@@ -11,6 +11,45 @@ body {
   width: 1000px;
 }
 
+.appHeader {
+  /* grid */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "brand member"
+  "brand search"; */
+  height: 85px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.brand {
+  /* grid-area: brand; */
+}
+
+.memberOnly {
+  /* grid-area: member; */
+}
+
+.searchForm {
+  /* grid-area: search; */
+  text-align: right;
+}
+
+input[name="search"] {
+  width: 400px;
+}
+
+.buttonSearch {
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  background-color: #988574;
+  color: #ffffff;
+  height: 35px;
+}
+
 .appNavigation, .appFooter {
   width: 100vw;
 }

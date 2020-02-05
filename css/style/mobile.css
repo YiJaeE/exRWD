@@ -26,32 +26,10 @@ body {
   background-color: rgb(152, 133, 116);
   color: #ffffff;
   order: -1;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end;
-}
-
-.memberOnly li {
-  display: flex;
-  align-items: center;
-}
-
-.memberOnly li:last-child {
-  margin-right: -.715em;
-}
-
-.memberOnly a {
-  padding: .5em .715em;
 }
 
 input[name="search"] {
-  border: 1px solid #aaaaaa;
-  border-radius: 5px;
-  height: 35px;
   width: calc(100% - 45px);
-  margin-right: 5px;
-  padding-left: 1em;
-  vertical-align: middle;
 }
 
 .buttonSearch {
