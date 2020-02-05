@@ -12,3 +12,28 @@ body, body *, body *::before, body *::after {
 }
 
 /* common layout */
+
+/* member service */
+.memberOnly {
+  text-align: right;
+  padding: 4px 10px 4px 0;
+}
+
+.memberOnly li, .memberOnly a {
+  display: inline-block;
+  line-height: 46px;
+}
+
+.memberOnly a {
+  padding: 0 .8em;
+}
+
+/* search */
+input[name="search"] {
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  height: 35px;
+  margin-right: 5px;
+  padding-left: 1em;
+  vertical-align: middle;
+}

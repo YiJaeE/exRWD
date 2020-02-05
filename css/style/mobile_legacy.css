@@ -23,17 +23,6 @@ body {
   background-color: #988574;
   height: 50px;
   color: #ffffff;
-  text-align: right;
-  padding: 4px 10px 4px 0;
-}
-
-.memberOnly li, .memberOnly a {
-  display: inline-block;
-  line-height: 46px;
-}
-
-.memberOnly a {
-  padding: 0 .8em;
 }
 
 /* search form */
@@ -42,14 +31,8 @@ body {
 }
 
 input[name="search"] {
-  border: 1px solid #aaaaaa;
-  border-radius: 5px;
-  height: 35px;
   /* width: 88%; */
   width: calc(100% - 45px);
-  margin-right: 5px;
-  padding-left: 1em;
-  vertical-align: middle;
   float: left;
 }
 

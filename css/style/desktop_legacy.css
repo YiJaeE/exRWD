@@ -9,6 +9,34 @@ body {
 
 .appHeader {
   width: 1000px;
+  position: relative;
+}
+
+/* logo */
+.brand {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  top: 50%;
+  margin-top: -30px;
+}
+
+/* search form */
+.searchForm {
+  text-align: right;
+}
+
+input[name="search"] {
+  width: 400px;
+}
+
+.buttonSearch {
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  background-color: #988574;
+  color: #ffffff;
+  height: 35px;
+  vertical-align: middle;
 }
 
 .appMain {
