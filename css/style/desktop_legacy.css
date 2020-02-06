@@ -1,6 +1,6 @@
 body {
   background-color: skyblue;
-  font-size: 1em;
+  font-size: 1.6em;
 }
 
 .appHeader, .appMain {
@@ -10,6 +10,7 @@ body {
 .appHeader {
   width: 1000px;
   position: relative;
+  margin-bottom: 1.5em;
 }
 
 /* logo */
@@ -33,11 +34,56 @@ input[name="search"] {
 .buttonSearch {
   border: 1px solid #aaaaaa;
   border-radius: 5px;
-  background-color: #988574;
+  background: #988574;
   color: #ffffff;
   height: 35px;
   vertical-align: middle;
 }
+
+/* Navigation */
+.appNavigation {
+  background: #988574;
+  padding: 2em 0;
+}
+
+.menu__list::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.menu__item {
+  float: left;
+  margin: 0 25px;
+}
+
+.menu__link {
+  font-size: 1.15em;
+  font-weight: 900;
+  text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+}
+
+.menu__subMenu {
+  font-size: 1.05em;
+  font-weight: 700;
+  margin-top: 1.5em;
+}
+
+.menu__subMenu li {
+  margin-top: 1em;
+}
+
+.buttonNone {
+  display: none;
+}
+
+.menu__list {
+  width: 1000px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+/* Main Menu */
 
 .appMain {
   width: 1020px;
