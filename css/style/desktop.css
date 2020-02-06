@@ -32,6 +32,7 @@ body {
 
 .memberOnly {
   /* grid-area: member; */
+  height: 45px;
 }
 
 .searchForm {
