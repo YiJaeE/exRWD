@@ -79,6 +79,8 @@ input[name="search"] {
   font-size: 1.8rem;
   font-weight: 900;
   text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000;
+  outline: 0;
+  cursor: default;
 }
 
 .menu__subMenu {
