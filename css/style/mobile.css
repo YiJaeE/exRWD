@@ -84,6 +84,21 @@ input[name="search"] {
   transform: translateY(-100%);
 }
 
+/* addClass menu--isAct */
+.menu--isAct .positionTop {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.menu--isAct .positionMiddle {
+  transform: translate(-105%, -50%);
+}
+
+.menu--isAct .positionBottom {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
 .burgerBar {
   position: absolute;
   left: 0;
