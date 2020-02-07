@@ -15,7 +15,7 @@ body {
   padding-bottom: 1em;
 }
 
-.brand, .memberOnly, .searchForm {
+.brand, .memberOnly, .searchForm, .appMain, .appFooter {
   width: 100vw;
   padding-left: 20px;
   padding-right: 20px;
@@ -157,8 +157,16 @@ input[name="search"] {
   display: block;
 }
 
-
 /* Main contents */
+.appMain {
+  padding-bottom: 2em;
+}
+
 .book, .news, .board, .favorite, .twitter {
   width: 100vw;
+}
+
+/* Footer */
+.address span {
+  display: block;
 }

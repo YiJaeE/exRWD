@@ -118,5 +118,7 @@ input[name="search"] {
   width: 420px;
 }
 
+/* Footer */
 .appFooter {
+  text-align: center;
 }
