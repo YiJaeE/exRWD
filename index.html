@@ -95,15 +95,18 @@
     </nav>
     <main class="appMain">
       <section class="book">
-        <h2 class="book__title sprite spriteBook">추천 서적</h2>
-        <span class="book__enTitle themeGreen">Recommend Book</span>
+        <h2 class="book__title sprite spriteBook">추천 서적
+          <span class="book__enTitle themeGreen">Recommend Book</span>
+        </h2>
         <figure class="book__cover">
           <img src="./images/book_rwd.jpg" alt="" class="responsive" aria-labelledby="book__coverCaption">
           <figcaption class="book__coverCaption" id="book__coverCaption">반응형 웹 핵심 가이드 북</figcaption>
           <dl class="book__info">
-            <dt>저자</dt><dd>김데레사</dd>
-            <dt class="a11yHidden">별점</dt> <dd class="themeGreen">
-              <span aria-hidden="true">★★★★☆</span>
+            <dt>저자</dt>
+            <dd>김데레사</dd>
+            <dt class="a11yHidden">별점</dt>
+            <dd class="themeGreen" aria-label="5점 만점에 4점">
+              <span aria-hidden="true" class="themeGreen">★★★★☆</span>
             </dd>
           </dl>
           <p class="book__summary">
@@ -111,7 +114,25 @@
           </p>
         </figure>
       </section>
-      <section class="news">새소식</section>
+      <section class="news">
+        <h2 class="news__title sprite spriteNews">
+          새소식 <span class="news__enTitle themeYellow">WebCafe News</span>
+        </h2>
+        <figure class="news__videoContainer">
+          <!-- <video class="news__video responsive" poster="media/poster.jpg" controls>
+            <source src="media/stories.mp4" type="video/mp4">
+            <track src="media/stories-en.vtt" kind="captions" srclang="en" label="English Caption">
+          </video> -->
+          <div class="iframeContainer iframe16To9">
+            <iframe src="https://www.youtube.com/embed/2KtFPjSp3og" allowfullscreen></iframe>
+          </div>
+          <figcaption class="a11yHidden">구글 개발자 이야기</figcaption>
+        </figure>
+        <p class="news__summary">
+          구글플레이는 다양한 분야에서 활약하고 있는 국내 개발사들을 모시고 직접 이야기를 나눠보는 ‘구글플레이 개발자와의 대화’ 행사를 정기적으로 개최할 예정입니다. 오늘 3월 29일(수) 구글 캠퍼스 서울에서 열린 첫 번째 ‘구글플레이 개발자와의 대화’는 ‘해외에서 빵터진 한국 앱'을 주제로진행됐는데요, 국내 앱 시장은 물론 글로벌 시장에서도 주목 받으며 글로벌 진출의 본보기가 되고 있는 개발사 세 곳과 함께 했습니다.
+        </p>
+        <time class="news__date icon-calendar" datetime="2019-10-19T14:03:23">2019.10.19</time>
+      </section>
       <section class="board">게시판</section>
       <section class="favorite">인기 사이트</section>
       <article class="twitter">트위터</article>

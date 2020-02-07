@@ -8,3 +8,20 @@
   padding: .25em 1em;
   border: 1px solid #aaaaaa;
 }
+
+/* 글자 색상별 테마 */
+.themeGreen {
+  color: #abd375;
+ }
+ .themeYellow {
+  color: #e8ca58;
+ }
+ .themeBrown {
+  color: #c7b39a;
+ }
+ .themeSkyblue {
+  color: #6aaee6;
+ }
+ .themeOrange {
+  color: #eea60a;
+ }
